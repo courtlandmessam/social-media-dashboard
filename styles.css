@@ -1,0 +1,60 @@
+body {
+  background: hsl(230, 17%, 14%);
+  font-family: "Inter", sans-serif;
+  margin: 0;
+}
+
+p {
+  margin: 0;
+}
+
+#top-background {
+  background: hsl(232, 19%, 15%);
+  padding: 0;
+  margin: 0;
+  padding: 5% 5% 20% 5%;
+  position: absolute;
+  z-index: -5;
+  width: 90%;
+}
+
+#heading {
+  color: hsl(0, 0%, 100%);
+  letter-spacing: 0.5px;
+  font-size: 19px;
+  font-weight: 500;
+}
+
+hr {
+  margin-top: 14px;
+  margin-bottom: 14px;
+  height: 0.5px;
+  border: 0;
+  color: hsla(228, 12%, 44%, 0);
+  background-color: hsla(228, 12%, 44%, 0.2);
+}
+
+.dark-gray-blue {
+  color: hsl(228, 12%, 44%);
+  font-size: 10px;
+  font-weight: 500;
+}
+
+#dark-mode-container {
+  display: flex; /* or inline-flex */
+  justify-content: space-between;
+}
+
+#card-section {
+  position: relative;
+  top: 100px;
+  z-index: 9;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
